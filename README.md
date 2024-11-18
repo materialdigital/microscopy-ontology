@@ -1,5 +1,5 @@
 # Microscopy Ontology (MO)
-This repository contains the [Microscopy Ontology (MO)](https://github.com/materialdigital/application-ontologies/blob/main/microscopy_ontology_MO/pmd_mo.ttl) and related information. The MO has been developed as part of the Platform MaterialDigital [(PMD)](https://materialdigital.de/) project in collaboration with the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)).
+This repository contains the [Microscopy Ontology (MO)](https://github.com/materialdigital/microscopy-ontology/blob/main/pmd_mo.ttl) and related information. The MO has been developed as part of the Platform MaterialDigital [(PMD)](https://materialdigital.de/) project in collaboration with the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)).
 
 Designed as an application ontology, the MO imports and builds upon the PMD Core Ontology ([PMDco](https://github.com/materialdigital/core-ontology/tree/main)), a mid-level ontology for materials science and engineering ([more details here](https://doi.org/10.1016/j.matdes.2023.112603)), and extends the PMDco with approx. 200 terms retrieved from an NLP approach by analyzing 2 decades of [Microscopy and Microanalysis Conference](https://microscopy.org/past-m-m-meetings) proceedings.
 
@@ -13,7 +13,7 @@ When using and referring to the Microscopy Ontology (MO), please cite the follow
 
 Bibtex:
 ```
-@article{Bayerlein2024,
+@article{NLP-MO2024,
   author = {Bernd Bayerlein and Markus Schilling and Maurice Curran and Carelyn E. Campbell and Alden A. Dima and Henk Birkholz and June W. Lau},
   title = {Natural Language Processing-Driven Microscopy Ontology Development},
   journal = {Integrating Materials and Manufacturing Innovation},
@@ -37,12 +37,6 @@ MO incorporates the most commonly used and, therefore, pivotal terms and abbrevi
 Developed as a prototype for swift application ontology creation, MO employs a reproducible and transferable approach based on a specialized community text corpus using natural language processing (NLP) techniques and tools. This corpus includes contributions from two decades of the Microscopy and Microanalysis Conference, with the derived terms being categorized according to PMDco.
 
 In addition to the increased speed of the methodology, the attractiveness of this method for other areas is that it can potentially circumvent special interests and individual biases. The methodology can therefore be reapplied at regular intervals to reflect the fact that our technology, and therefore language, is constantly evolving. As a result, the ontology and its subsequent versions evolve into dynamic representations of the field's accumulated knowledge.
-
-## Documentation
-An HTML documentation of MO that was auto-generated using [Widoco tool](https://github.com/dgarijo/Widoco) implemented as an GitHub action can be found at the [gh-pages of MO](https://materialdigital.github.io/application-ontologies/mo/index-en.html) and using the MO namespace [https://w3id.org/pmd/mo](https://w3id.org/pmd/mo).
-
-## Contribute
-An open [MO HackMD document](https://hackmd.io/21tFuZTITq2draxRPbepzg) used for collaborative work on shared vocabulary / thesaurus used for [pmd_mo.ttl](https://github.com/materialdigital/application-ontologies/blob/main/microscopy_ontology_MO/pmd_mo.ttl) is available. Please feel free to contribute but highlight changes in the thesaurus.
 
 ## Namespaces
 In this section, the namespaces used in the Microscopy Ontology (MO) are listed. These can also be found in the [pmd_mo.ttl file](https://github.com/materialdigital/application-ontologies/blob/main/microscopy_ontology_MO/pmd_mo.ttl).
