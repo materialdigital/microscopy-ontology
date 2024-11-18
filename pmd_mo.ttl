@@ -8,14 +8,14 @@
 
 <https://w3id.org/pmd/mo> rdf:type owl:Ontology ;
                            owl:versionIRI <https://w3id.org/pmd/mo/2.0> ;
-                           owl:imports <https://w3id.org/pmd/co/3.0.0-dev> ;
+                           owl:imports <https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl> ;
                            <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-3717-7104> ,
                                                                      <https://orcid.org/0000-0002-7094-5371> ;
                            <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by/4.0> ;
-                           <http://purl.org/dc/terms/bibliographicCitation> "Markus Schilling, June Lau, Bernd Bayerlein. (July 22th, 2024) MO: microscopy ontology. Version 1.1, https://w3id.org/pmd/mo/"@en ;
+                           <http://purl.org/dc/terms/bibliographicCitation> "Markus Schilling, June Lau, Bernd Bayerlein. (November 11th, 2024) MO: microscopy ontology. Version 2.0, https://w3id.org/pmd/mo/"@en ;
                            <http://purl.org/dc/terms/title> "Microscopy Ontology (MO)"@en ;
                            rdfs:isDefinedBy <https://w3id.org/pmd/mo> ;
-                           owl:versionInfo 1.1 ;
+                           owl:versionInfo 2.0 ;
                            <http://www.w3.org/2004/02/skos/core#definition> "Die Mikroskopie-Ontologie (MO) baut auf der PMD Core Ontology (PMDco) auf und bietet Konzepte für die semantische (Meta-)Datendarstellung im Bereich der Mikroskopie und Mikroanalyse. Mithilfe eines NLP-Ansatzes wird aus einem großen Korpus von Abstracts aus zwei Jahrzehnten Mikroskopie- und Mikroanalyse-Konferenzbeiträgen die zugrunde liegende Sprache der Community halbautomatisch abgeleitet und in die MO integriert. Die MO ermöglicht die semantische Integration und Verknüpfung von heterogenen Mikroskopie- und Mikroanalysedaten."@de ,
                                                                             "The Microscopy Ontology (MO) is built on the PMD Core Ontology (PMDco) and provides concepts for semantic (meta)data representation within the domains of microscopy and microanalysis. Using an NLP approach on a large corpus of abstracts from 2 decades of Microscopy and Microanalysis Conference Proceedings, the underlying language of the community is semiautomatically derived and incorporated in the MO. The MO enables semantic integration and linkage of heterogeneous microscopy and microanalysis data."@en .
 

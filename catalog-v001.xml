@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/co/3.0.0-dev" uri="file:/C:/Users/mschilli/Documents/GitHub/core-ontology/pmdco.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/co/3.0.0-dev" uri="https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/develop-3.0.0/pmdco.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/co/2.0.8" uri="https://w3id.org/pmd/co/3.0.0-dev"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+</catalog>
