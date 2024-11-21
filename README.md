@@ -1,9 +1,9 @@
 # Microscopy Ontology (MO)
-This repository contains the [Microscopy Ontology (MO)](https://github.com/materialdigital/microscopy-ontology/blob/main/pmd_mo.ttl) and related information. The MO has been developed as part of the Platform MaterialDigital [(PMD)](https://materialdigital.de/) project in collaboration with the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)).
+This repository contains the BFO-compliant [Microscopy Ontology (MO)](https://github.com/materialdigital/microscopy-ontology/blob/main/pmd_mo.ttl) adapted to PMDco v3.0 and additional information. The MO has been developed as part of the Platform MaterialDigital [(PMD)](https://materialdigital.de/) project in collaboration with the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)).
 
 Designed as an application ontology, the MO imports and builds upon the PMD Core Ontology ([PMDco](https://github.com/materialdigital/core-ontology/tree/main)), a mid-level ontology for materials science and engineering ([more details here](https://doi.org/10.1016/j.matdes.2023.112603)), and extends the PMDco with approx. 200 terms retrieved from an NLP approach by analyzing 2 decades of [Microscopy and Microanalysis Conference](https://microscopy.org/past-m-m-meetings) proceedings.
 
-For further details, see:
+For more details on the accelerated development method, see:
 
 ### Scientific Publication
 
@@ -26,7 +26,7 @@ Bibtex:
 available open access at: [Integrating Materials and Manufacturing Innovation](https://doi.org/10.1007/s40192-024-00378-y).
 
 ## Scope 
-The Microscopy Ontology (MO) extends the ontological framework of the PMDco v2.0.7 as an [application ontology](https://github.com/materialdigital/application-ontologies). The MO facilitates semantic integration and the interoperable connection of diverse data sources from the fields of microscopy and microanalysis. Consequently, the MO paves the way for new, adaptable data applications and analyses across various experiments and studies ([Click here for more info](10.1038/s41597-024-03169-4)).
+The Microscopy Ontology (MO) extends the ontological framework of the PMDco as an [application ontology](https://github.com/materialdigital/application-ontologies). The MO facilitates semantic integration and the interoperable connection of diverse data sources from the fields of microscopy and microanalysis. Consequently, the MO paves the way for new, adaptable data applications and analyses across various experiments and studies ([Click here for more info](10.1038/s41597-024-03169-4)).
 
 MO serves as a crucial foundation for annotating (meta)data in microscopy and microanalysis. With the MO, such data can be seamlessly transformed into RDF formats for advanced data management. This simplifies the understanding and communication between humans and machines and also boosts the data's interpretability, findability, and reusability, significantly contributing to research transparency and reproducibility.
 
